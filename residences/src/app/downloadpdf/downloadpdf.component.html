@@ -1,25 +1,30 @@
 <div class=" w-full px-6 bg-[url('bg.jpg')] rounded-lg py-10 overflow-y-auto ">
     <p class="font-bold pb-4 text-white">Download Bronchure</p>
     <p class="pt-4 text-white">Fill the form below to download bronchure</p>
-    <mat-form-field appearance="fill">
-        <mat-label>Full name</mat-label>
-        <input id= "name" class="p-3"  mat-input [(ngModel)]="name" placeholder="Full Name" required>
-    </mat-form-field><br>
-    <mat-form-field appearance="fill">
-        <mat-label class="text-grey-500">Email Address</mat-label>
-        <input class="p-3" mat-input [(ngModel)]="email" placeholder="Email Address" required>
-    </mat-form-field><br>
-    <mat-form-field appearance="fill">
-        <mat-label>Phone</mat-label>
-        <input class="p-3 w-full" mat-input [(ngModel)]="phone" placeholder="Phone" required>
-    </mat-form-field><br>
-    <mat-form-field appearance="fill">
-        <mat-label>Company</mat-label>
-        <input class="p-3" mat-input [(ngModel)]="company" placeholder="Company" required>
-    </mat-form-field><br>
-    <mat-form-field appearance="fill">
-        <mat-label>Message</mat-label>
-        <input class="p-3" mat-input [(ngModel)]="message" placeholder="Message">
-    </mat-form-field><br>
-    <mat-checkbox class="pt-4 text-white">I agree to the terms and conditions</mat-checkbox>
+    <form class="mat-typography overflow-y-auto h-screen ">
+        
+
+        <mat-form-field class="w-full" appearance="fill">
+            <mat-label>Full name</mat-label>
+            <input id= "name" class="p-3 w-full"  mat-input [(ngModel)]="name" placeholder="Full Name" required>
+        </mat-form-field><br>
+        <mat-form-field class="w-full" appearance="fill">
+            <mat-label class="text-grey-500">Email Address</mat-label>
+            <input class="p-3 w-full" mat-input [(ngModel)]="email" placeholder="Email Address" required>
+        </mat-form-field><br>
+        <mat-form-field class="w-full" appearance="fill">
+            <mat-label>Phone</mat-label>
+            <input class="p-3 w-full" mat-input [(ngModel)]="phone" placeholder="Phone" required>
+        </mat-form-field><br>
+        <mat-form-field class="w-full" appearance="fill">
+            <mat-label>Company</mat-label>
+            <input class="p-3 w-full" mat-input [(ngModel)]="company" placeholder="Company" required>
+        </mat-form-field><br>
+        <mat-form-field class="w-full" appearance="fill">
+            <mat-label>Message</mat-label>
+            <input class="p-3 w-full" mat-input [(ngModel)]="message" placeholder="Message">
+        </mat-form-field>
+        <mat-checkbox class=" text-white">I agree to the terms and conditions</mat-checkbox>
+    
+    </form>
 </div>
