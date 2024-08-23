@@ -15,6 +15,7 @@ import { MatDialogModule } from '@angular/material/dialog';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatCheckboxModule } from '@angular/material/checkbox';
+import { FormGroup } from '@angular/forms';
 
 
 
@@ -35,12 +36,14 @@ import {MatCheckboxModule } from '@angular/material/checkbox';
  
   MatDialogTitle,
   FormsModule,
+  
   MatCheckboxModule
   ],
   templateUrl: './downloadpdf.component.html',
   styleUrl: './downloadpdf.component.css'
 })
-export class DownloadpdfComponent {
+export class DownloadpdfComponent
+ {
   name:any
   email:any
   phone:any
