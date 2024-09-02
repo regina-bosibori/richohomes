@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './swiper.component.css'
 })
 export class SwiperComponent {
+  
+    
 
 }
