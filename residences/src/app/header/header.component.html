@@ -3,12 +3,12 @@
         <p class="text-3xl ml-2 text-white font-thin italic tracking-wide"><span class="tracking-widest  text-5xl italic text-white">RICHO</span ><br>HOMES</p>
         <div class="flex space-x-4 ">
             
-            <button routerLink="/home" class="text-white pt-2" >HOME</button>
-            <button routerLink="/residences" class="text-white pt-2">RESIDENCES</button>
-            <button routerLink="/amenities"class="text-white pt-2">AMENITIES</button>
-            <button routerLink="/location"class="text-white pt-2">LOCATION</button>
-            <button routerLink="/floorPlans" class="text-white pt-2">FLOOR PLANS</button>
-            <button href="#" class="bg-[url('/bg.jpg')] text-center text-white w-30 h-10 rounded-2xl border border-white border-4 px-2 py-1 mt-7 text-sm">REGISTER YOUR INTEREST</button>
+           <a href="#home"><button class="text-white pt-8" >HOME</button></a>
+           <a href="#residences"><button class="text-white pt-8">RESIDENCES</button></a>
+           <a href="#amenities"><button class="text-white pt-8">AMENITIES</button></a>
+           <a href="#location"><button class="text-white pt-8">LOCATION</button></a>
+           <a href="#floorplans"><button class="text-white pt-8">FLOOR PLANS</button></a>
+            <button (click)="openDialogue()" href="#" class="bg-[url('/bg.jpg')] text-center text-white w-30 h-10 rounded-2xl border border-white border-4 px-2 py-1 mt-7 text-sm">REGISTER YOUR INTEREST</button>
         </div>
     </div>
 </section>
