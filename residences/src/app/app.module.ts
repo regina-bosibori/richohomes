@@ -20,9 +20,10 @@ import {MatCheckboxModule } from '@angular/material/checkbox';
 
 
 
+
 @NgModule({
   declarations: [
-    AppComponent
+    
   ],
   imports: [
     BrowserModule,
@@ -30,20 +31,21 @@ import {MatCheckboxModule } from '@angular/material/checkbox';
     MatFormFieldModule,
     MatInputModule,
     MatDialogModule,
-  MatDialog,
+  
   MatDialogActions,
   MatDialogClose,
   MatDialogContent,
-  MatDialogRef,
+  
   MatDialogTitle,
   FormsModule,
-  MatCheckboxModule
+  MatCheckboxModule,
+  
 
 
 
     
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: []
 })
 export class AppModule { }
